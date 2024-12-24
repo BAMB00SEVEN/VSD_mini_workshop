@@ -35,8 +35,9 @@ Learn how to compile C programs using both standard GCC and RISC-V compiler on L
    - Compile with O1 optimization:
    
    ```riscv64-unknown-elf-objdump -O1 sum1ton.o
+
    
-   - View assembly with O1:
+   
    
    ```riscv64-unknown-elf-objdump -d a.out
    
