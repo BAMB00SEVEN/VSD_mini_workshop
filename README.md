@@ -19,38 +19,39 @@ Learn how to compile C programs using both standard GCC and RISC-V compiler on L
 
 2. Compile with GCC
    - In the terminal, compile your code:
-   
-   ```gcc sum1ton.c
+   ```
+   gcc sum1ton.c
    ./a.out
    
 
 ## Part B: RISC-V Compilation
 1. View Your Code
    - Display your source code:
-   
-   ```cat sum1ton.c
+   ```
+   cat sum1ton.c
    
 
 2. RISC-V Compilation Steps
    - Compile with O1 optimization:
-   
+   ```
    riscv64-unknown-elf-objdump -O1 sum1ton.o
 
-   
-   
-   
    riscv64-unknown-elf-objdump -d a.out
    
 
 3. Compare Different Optimization
    - Compile with fast optimization:
-   
+  ```
    riscv64-unknown-elf-objdump -Ofast sum1ton.c
+```
    
    - View optimized assembly:
-   
-   ```riscv64-unknown-elf-objdump -d a.out
-   
+```
+   riscv64-unknown-elf-objdump -d a.out
+  ```
+```
+```
+   ---
 
 ## Key Learning Points
 - Understanding basic C program compilation
@@ -60,6 +61,7 @@ Learn how to compile C programs using both standard GCC and RISC-V compiler on L
 
 ## Sample Program Structure
 c
+```
 #include <stdio.h>
 
 int main() {
