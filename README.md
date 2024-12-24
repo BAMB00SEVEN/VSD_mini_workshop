@@ -15,7 +15,7 @@ Learn how to compile C programs using both standard GCC and RISC-V compiler on L
    - Create a new C file with: sum1ton.c
    - Write a simple program to add numbers from 1 to n
    - Save with Ctrl + S and exit with Ctrl + W
-("C:\Users\PARTH BATRA\OneDrive\Pictures\Screenshots\Screenshot 2024-12-24 180025.png"
+
 
 2. Compile with GCC
    - In the terminal, compile your code:
@@ -34,18 +34,18 @@ Learn how to compile C programs using both standard GCC and RISC-V compiler on L
 2. RISC-V Compilation Steps
    - Compile with O1 optimization:
    
-   ```riscv64-unknown-elf-objdump -O1 sum1ton.o
+   riscv64-unknown-elf-objdump -O1 sum1ton.o
 
    
    
    
-   ```riscv64-unknown-elf-objdump -d a.out
+   riscv64-unknown-elf-objdump -d a.out
    
 
 3. Compare Different Optimization
    - Compile with fast optimization:
    
-   ```riscv64-unknown-elf-objdump -Ofast sum1ton.c
+   riscv64-unknown-elf-objdump -Ofast sum1ton.c
    
    - View optimized assembly:
    
